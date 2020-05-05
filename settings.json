@@ -1,0 +1,14 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.exclude": {
+        "**/.*.*.cmd": true,
+        "**/.*.d": true,
+        "**/.*.S": true
+    },
+    "[c]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.rulers": [80]
+    }
+}

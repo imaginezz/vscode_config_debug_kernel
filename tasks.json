@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run_qemu_vm_1",
+            "type": "shell",
+            "isBackground": true,
+            "command": "qemu-system-x86_64 -kernel ~/linux/arch/x86/boot/bzImage -hda ~/rootfs/busybox/busybox_rootfs.img -serial stdio -append \"root=/dev/sda console=ttyS0 nokaslr\" -s -S"
+        }
+    ]
+}
