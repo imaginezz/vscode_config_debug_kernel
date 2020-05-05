@@ -8,3 +8,7 @@
 - Run `generate_compdb.py` in Kernel's root directory, eg `python ./.vscode/generate_compdb.py`.
 - Wait for IntellSense completed.
 - You can run Kernel in Qemu with GDB Server first, then run debug in VSCode.
+
+# Reference
+
+https://github.com/amezin/vscode-linux-kernel
