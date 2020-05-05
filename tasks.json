@@ -6,7 +6,11 @@
         {
             "label": "run_qemu_vm_1",
             "type": "shell",
-            "isBackground": true,
+            // "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
             "command": "qemu-system-x86_64 -kernel ~/linux/arch/x86/boot/bzImage -hda ~/rootfs/busybox/busybox_rootfs.img -serial stdio -append \"root=/dev/sda console=ttyS0 nokaslr\" -s -S"
         }
     ]
